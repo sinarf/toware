@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+name = 'toware'
+version = '0.0.1'
+description = '''A CLI Tower control.
+
+This project a in a POC phase.
+
+The main goal would be to remove all the helper scripts that I have in my dot file with an application where most use cases could be configured via a dot file.
+'''
+
+
+authors = [{ name = 'sinarf', email = 'sinarf@sinarf.org' }]
